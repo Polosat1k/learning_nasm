@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Make main",
+      "type": "shell",
+      "command": "make all",
+      "group": "build",
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "Make clean",
+      "type": "shell",
+      "command": "make clean"
+    }
+  ]
+}
