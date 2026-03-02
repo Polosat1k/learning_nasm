@@ -17,7 +17,7 @@ all: $(BUILD_DIR)/$(TARGET)
 $(BUILD_DIR)/libcommands.a: $(OBJ_FILES)
 	ar rcs $@ $^
 
-$(BUILD_DIR)/$(TARGET): $(WRAPPER_OBJ) $(BUILD_DIR)/libcommands.a
+$(BUILD_DIR)/$(TARGET):  $(WRAPPER_OBJ) $(BUILD_DIR)/libcommands.a
 	gcc $^ -g -o $@ $(LDFLAGS)
 
 $(BUILD_DIR):
