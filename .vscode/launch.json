@@ -48,8 +48,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/Polosatik/working/Nya Mya/МС/project_asm/build",
-      "program": "/home/Polosatik/working/Nya Mya/МС/project_asm/build/program",
+      "cwd": "/home/Polosatik/working/Nya Mya/МС/project_asm/src",
+      "program": "/home/Polosatik/working/Nya Mya/МС/project_asm/src/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
